@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог | Хабаров Матвей</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">     
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="./index.html"><i class="fas fa-home"></i> Главная</a></li>
+        <li><a href="./blog.html" class="active"><i class="fas fa-blog"></i> Блог</a></li>
+        <li><a href="./projects.html"><i class="fas fa-code"></i> Проекты</a></li>
+        <li><a href="./resume.html"><i class="fas fa-file-alt"></i> Резюме</a></li>
+      </ul>
+    </nav>
+    <h1>Блог Хабарова Матвея</h1>
+    <p>Здесь собраны статьи, которые я считаю интересными</p>
+  </header>
+
+  <main class="container">
+    <div class="blog-content">
+      <article class="blog-post">
+        <div class="post-header">
+          <h2>Начало работы с Git: подробный гайд для новичков</h2>
+          <div class="post-meta">
+            <span><i class="far fa-calendar"></i> 29 апреля 2020</span>
+          </div>
+        </div>
+        <img src="https://cdn.javarush.com/images/article/a1d39060-a02e-4a92-9e18-1fe27245ef4f/800.webp" alt="Git" class="post-image">
+        <div class="post-content">
+          <p>Статья о Git и его основах.</p>
+          <a href="https://javarush.com/groups/posts/2683-nachalo-rabotih-s-git-podrobnihy-gayd-dlja-novichkov" class="btn read-more-btn" target="_blank" rel="noopener noreferrer">Читать далее</a> 
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="post-header">
+          <h2>Как работает Веб</h2>
+          <div class="post-meta">
+            <span><i class="far fa-calendar"></i> ** * 20**</span>
+          </div>
+        </div>
+        <img src="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works/client-server.jpg" alt="Веб" class="post-image">
+        <div class="post-content">
+          <p>Как работает Веб даст упрощённое представление о том, что происходит при просмотре веб-страницы в браузере на вашем компьютере или телефоне.</p>
+          <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works" class="btn read-more-btn" target="_blank" rel="noopener noreferrer">Читать далее</a>
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="post-header">
+          <h2>Язык программирования Go – для начинающих</h2>
+          <div class="post-meta">
+            <span><i class="far fa-calendar"></i> 31 января 2025</span>
+          </div>
+        </div>
+        <img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/9e9/67b/edc/9e967bedc755b71fdf78d22569cea7bc.png" alt="Golang" class="post-image">
+        <div class="post-content">
+          <p>Основы Golang.</p>
+          <a href="https://habr.com/ru/articles/878190/" class="btn read-more-btn" target="_blank" rel="noopener noreferrer">Читать далее</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <p><i class="fas fa-envelope"></i> matvey7337@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +7 (922) ***-**-**</p>
+      </div>
+      <div class="footer-section">
+        <h3>Соцсети</h3>
+        <div class="social-links">
+          <a href="https://github.com/KhabarovMatvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>     
+          <a href="https://t.me/Matvey73337" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/id452866286" target="_blank" rel="noopener noreferrer"><i class="fab fa-vk"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="current-year"></span> Хабаров Матвей.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+  <button id="theme-toggle" class="btn theme-toggle-btn" aria-label="Сменить тему">
+    <i class="fas fa-moon"></i>
+  </button>
+</body>
+</html>

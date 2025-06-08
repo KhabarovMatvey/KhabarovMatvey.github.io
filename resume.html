@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме | Хабаров Матвей</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">       
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="./index.html"><i class="fas fa-home"></i> Главная</a></li>
+        <li><a href="./blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+        <li><a href="./projects.html"><i class="fas fa-code"></i> Проекты</a></li>
+        <li><a href="./resume.html" class="active"><i class="fas fa-file-alt"></i> Резюме</a></li>
+      </ul>
+    </nav>
+    <h1>Резюме Хабарова Матвея</h1>
+    <p>Студент Челябинского Государственного Университета</p>
+  </header>
+
+  <main class="container">
+    <aside class="aside_element">
+      <section class="sidebar-section">
+        <h2><i class="fas fa-user"></i> Личные данные</h2>
+        <ul class="contacts-list">
+          <li><i class="fas fa-city"></i> Челябинск</li>
+          <li><i class="fas fa-envelope"></i> <span class="copyable" data-text="matvey7337@gmail.com">matvey7337@gmail.com</span></li>
+          <li><i class="fas fa-phone"></i> <span class="copyable" data-text="+7922794****">+7 (922) **-**-**</span></li>
+        </ul>
+      </section>
+    </aside>
+
+    <article class="blocks_element">
+      <section class="block featured interactive-block">
+        <h2><i class="fas fa-graduation-cap"></i> Образование</h2>
+        <div class="expandable-content">
+          <p>Челябинский Государственный Университет, институт информационных технологий</p>
+          <p><strong>Направление:</strong> Программная инженерия</p>
+          <p><strong>Годы обучения:</strong> 2024 - н.в.</p>
+        </div>
+        <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
+      </section>
+
+      <section class="block interactive-block">
+        <h2><i class="fas fa-laptop-code"></i> Навыки</h2>
+        <div class="expandable-content">
+          <div class="skills-chart">
+            <div class="skill">
+              <label>C#</label>      
+              <div class="progress-bar"><span style="width: 90%"></span></div>
+            </div>
+            <div class="skill">
+              <label>Python</label>
+              <div class="progress-bar"><span style="width: 80%"></span></div>
+            </div>
+            <div class="skill">
+              <label>HTML/CSS</label>
+              <div class="progress-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill">
+              <label>JavaScript</label>
+              <div class="progress-bar"><span style="width: 60%"></span></div>
+            </div>
+          </div>
+        </div>
+        <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Соцсети</h3>
+        <div class="social-links">
+          <a href="https://github.com/KhabarovMatvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a> 
+          <a href="https://t.me/Matvey73337" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/id452866286" target="_blank" rel="noopener noreferrer"><i class="fab fa-vk"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="current-year"></span> Хабаров Матвей.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+  <button id="theme-toggle" class="btn theme-toggle-btn" aria-label="Сменить тему">
+    <i class="fas fa-moon"></i>
+  </button>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проекты | Хабаров Матвей</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">    
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li><a href="./index.html"><i class="fas fa-home"></i> Главная</a></li>
+        <li><a href="./blog.html"><i class="fas fa-blog"></i> Блог</a></li>
+        <li><a href="./projects.html" class="active"><i class="fas fa-code"></i> Проекты</a></li>
+        <li><a href="./resume.html"><i class="fas fa-file-alt"></i> Резюме</a></li>
+      </ul>
+    </nav>
+    <h1>Мои проекты</h1>
+    <p>Реализованные идеи и работы</p>
+  </header>
+
+  <main class="projects-container">
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-image">
+          <img src="./img/sait_vizitka.jpg" alt="Сайт-визитка">
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Сайт-визитка</h3>
+          <p>Сайт-визитка для практики по ВвН</p>
+          <a href="https://github.com/KhabarovMatvey/khabarovmatvey.github.io" class="btn project-btn" target="_blank" rel="noopener noreferrer">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="./img/image.jpg" alt="Проект">
+          <div class="project-tech">
+            <span>ЯП</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Проект</h3>
+          <p>Описание</p>
+          <a href="#" class="btn project-btn" target="_blank" rel="noopener noreferrer">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="./img/image.jpg" alt="Проект">
+          <div class="project-tech">
+            <span>ЯП</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Проект</h3>
+          <p>Описание</p>
+          <a href="#" class="btn project-btn" target="_blank" rel="noopener noreferrer">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="./img/image.jpg" alt="Проект">
+          <div class="project-tech">
+            <span>ЯП</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Проект</h3>
+          <p>Описание</p>
+          <a href="#" class="btn project-btn" target="_blank" rel="noopener noreferrer">Подробнее</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Соцсети</h3>
+        <div class="social-links">
+          <a href="https://github.com/KhabarovMatvey" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+          <a href="https://t.me/Matvey73337" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/id452866286" target="_blank" rel="noopener noreferrer"><i class="fab fa-vk"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="current-year"></span> Хабаров Матвей.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+  <button id="theme-toggle" class="btn theme-toggle-btn" aria-label="Сменить тему">
+    <i class="fas fa-moon"></i>
+  </button>
+</body>
+</html>
